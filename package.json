@@ -1,0 +1,27 @@
+{
+  "name": "how-much-rent-io",
+  "version": "0.0.1",
+  "description": "Web app for howmuchrent.io.",
+  "main": "start.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/louiswilbrink/how-much-rent-io.git"
+  },
+  "keywords": [
+    "rent-analysis",
+    "real-estate-investors",
+    "property-managers"
+  ],
+  "author": "Louis Wilbrink <louis.wilbrink@gmail.com> (louiswilbrink.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louiswilbrink/how-much-rent-io/issues"
+  },
+  "homepage": "https://github.com/louiswilbrink/how-much-rent-io#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
