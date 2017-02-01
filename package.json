@@ -4,7 +4,7 @@
   "description": "Web app for howmuchrent.io.",
   "main": "start.js",
   "scripts": {
-    "deploy-production": "npm install && ENV=production forever start.js",
+    "deploy-production": "npm install && ENV=production forever start start.js",
     "start": "npm install && node start.js"
   },
   "repository": {
