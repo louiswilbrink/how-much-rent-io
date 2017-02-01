@@ -1,10 +1,14 @@
 var express       = require('express');
+var morgan        = require('morgan');
 var router        = express.Router();
+
 var config        = require('../../config/configuration').getConfig();
 
-router.all('/', function (req, res) {
-  res.sendFile('index.html', { 
-      root: config.rootDir + '/web/'
+router.use(morgan('dev'));
+
+router.get('/', function (req, res) {
+  res.sendFile('start.html', { 
+    root: config.rootDir + '/web/'
   });
 });
 
