@@ -4,7 +4,8 @@ var cookieParser  = require('cookie-parser');
 var bodyParser    = require('body-parser');
 var config        = require('./config/configuration').getConfig();
 
-var routes        = require('./server/routes/base');
+var base          = require('./server/routes/base');
+var sitemap       = require('./server/sitemap');
 
 /*********************************************************
  * Express Configuration
@@ -17,7 +18,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
  //parse application/json
 app.use(bodyParser.json())
 
-app.use(routes);
+// Load routes.
+app.use(base);
+app.use(sitemap);
 
 app.listen(config.port);
 console.log('Listening on ' + config.port);
