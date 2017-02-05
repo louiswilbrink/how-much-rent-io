@@ -27,6 +27,7 @@
     "body-parser": "^1.16.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
+    "express-robots": "^0.1.6",
     "lodash": "^4.17.4",
     "morgan": "^1.7.0",
     "sitemap": "^1.9.0"

@@ -13,7 +13,7 @@ var sitemap = sm.createSitemap({
 });
 
 router.get('/sitemap.xml', function(req, res) {
-  sitemap.toXML( function (error, xml) {
+  sitemap.toXML(function (error, xml) {
     if (error) {
       return res.status(500).end();
     }
