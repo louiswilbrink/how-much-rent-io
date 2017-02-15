@@ -3,3 +3,4 @@ logs/
 config/configuration.js
 *.swp
 web/components/**/*.css
+web/pages/**/*.css

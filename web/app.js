@@ -8,6 +8,6 @@ angular.module('howmuchrentio', ['ui.router']).config(function ($stateProvider, 
   // Register states.
   $stateProvider.state('home', {
     url: '/',
-    templateUrl: '/pages/home.page.html',
+    templateUrl: '/pages/home/home.html',
   });
 });
