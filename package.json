@@ -24,10 +24,13 @@
   "homepage": "https://github.com/louiswilbrink/how-much-rent-io#readme",
   "dependencies": {
     "angular": "^1.6.1",
+    "angular-ui-router": "^0.4.2",
     "body-parser": "^1.16.0",
     "cookie-parser": "^1.4.3",
     "express": "^4.14.0",
     "express-robots": "^0.1.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
     "lodash": "^4.17.4",
     "morgan": "^1.7.0",
     "sitemap": "^1.9.0"

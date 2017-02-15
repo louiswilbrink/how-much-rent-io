@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html ng-app="how-much-rent-io">
+<html>
 <head>
   <meta name="viewport" content="initial-scale=1" />
+  <base href="/">
   <title>How Much Rent</title>
-<style>
+  <style>
     body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
+      margin: 0 auto;
+      font-family: Tahoma, Verdana, Arial, sans-serif;
     }
-</style>
+  </style>
+  <link rel="stylesheet" href="components/jumbotron/jumbotron.css">
 </head>
-<body>
-<h1>How Much Rent</h1>
-  <p>Get a free rental estimate from local Property Managers.  For free!</p>
-
-  <p><em>Launch imminent</em></p>
+<body ng-app="howmuchrentio">
+  <h1>How Much Rent</h1>
+  <ui-view></ui-view>
   <!-- Libraries -->
   <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
 
   <!-- Application -->
-  <!--<script src="app.js"></script>-->
+  <script src="app.js"></script>
 
   <!-- Components -->
+  <script src="components/jumbotron/jumbotron.component.js"></script>
 </body>
 </html>

@@ -11,6 +11,11 @@ var robots        = require('./server/robots');
 var app           = express();
 
 /*********************************************************
+ * Build Tasks
+ *********************************************************/
+var sass          = require('./server/tasks/sass');
+
+/*********************************************************
  * Express Configuration
  *********************************************************/
 // Make all application files public.
