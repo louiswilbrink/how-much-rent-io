@@ -1,5 +1,14 @@
-.jumbotron {
-  height: 400px;
-  width: 100%;
-  background-color: #7AB2D4;
+// Import all style variables and constants.
+@import "../../app.scss";
+
+.home {
+  h1 {
+    text-align: center;
+  }
+
+  .jumbotron {
+    height: 400px;
+    width: 100%;
+    background-color: $primary;
+  }
 }
