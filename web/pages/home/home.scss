@@ -10,5 +10,8 @@
     height: 400px;
     width: 100%;
     background-color: $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

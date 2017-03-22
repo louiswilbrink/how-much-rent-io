@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module('howmuchrentio', ['ui.router']).config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
+angular.module('howmuchrentio', ['ui.router', 'ngMaterial', 'ngMessages']).config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
   
   $locationProvider.html5Mode(true);
   $urlRouterProvider.otherwise('/');

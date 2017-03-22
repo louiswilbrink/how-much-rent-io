@@ -11,3 +11,13 @@ gulp.src([
   .pipe(gulp.dest(function (file) {
     return file.base;
   }));
+
+gulp.watch((config.rootDir + '/web/**/*.scss'), function () {
+  gulp.src([
+    config.rootDir + '/web/pages/**/*.scss', 
+    config.rootDir + '/web/components/**/*.scss'
+  ]).pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest(function (file) {
+      return file.base;
+    }));
+});
